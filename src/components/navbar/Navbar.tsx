@@ -184,7 +184,7 @@ const SpanSmall = styled.span`
 `;
 
 const Profile = () => {
-  const [openProfile, setProfile] = useState(true);
+  const [openProfile, setProfile] = useState(false);
 
   const handleProfile = () => setProfile(!openProfile);
 
