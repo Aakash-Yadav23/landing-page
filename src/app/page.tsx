@@ -194,7 +194,7 @@ export default function Home() {
     }, 2000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [placeholderType]);
 
   return (
     <StyledBody>
@@ -236,7 +236,7 @@ export default function Home() {
       </StyledBox>
       <Absolute>
 
-      <BlurryBg src={BlurryBgSVG} height={100} width={100}/>
+      <BlurryBg  alt='bg' src={BlurryBgSVG} height={100} width={100}/>
       </Absolute>
      
    
